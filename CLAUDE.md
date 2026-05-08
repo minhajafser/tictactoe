@@ -55,4 +55,18 @@ When modifying the game:
 
 ## Git Workflow
 
-All changes should be committed locally and pushed to the GitHub repository: https://github.com/minhajafser/tictactoe
+All changes must be committed locally and pushed to the GitHub repository: https://github.com/minhajafser/tictactoe
+
+**Commit Practices:**
+- Commit work frequently after completing meaningful units of functionality to avoid losing progress
+- Write clean, descriptive commit messages that explain *what* changed and *why*
+- Push commits to GitHub regularly (ideally after each significant piece of work)
+- Never accumulate uncommitted changes for extended periods—regular commits are your safety net
+
+**Example workflow:**
+1. Make a small, focused code change
+2. Test the change locally
+3. Commit with a clear message (e.g., "Add win detection for diagonal matches")
+4. Push to GitHub immediately
+
+This ensures work is never lost and the repository always reflects the current state of the project.
